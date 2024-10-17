@@ -19,7 +19,16 @@ public class SomaRecursiva {
 
         int resultado = soma(numero);
         System.out.println("A soma dos números naturais até " + numero + " é: " + resultado);
-        
+
+       /* System.out.println("Cálculo: ");
+        for (int i = numero; i > 0; i--) {
+            System.out.print(i);
+            if (i > 1) {
+                System.out.print(" + ");
+            }
+        }
+        System.out.println(" = " + resultado);
+        */
         in.close();
     }
 }

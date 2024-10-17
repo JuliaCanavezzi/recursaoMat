@@ -28,7 +28,10 @@ public class ProdutoRecursivo {
 
         int resultado = produto(num1, num2);
         System.out.println("O produto de " + num1 + " e " + num2 + " é: " + resultado);
-        
+
+       /*System.out.println("Cálculo:");
+        System.out.println(num1 + " + P (" + num1 + " * " + (num2 - 1) + ") = " + resultado);
+       */ 
         in.close();
     }
 }
